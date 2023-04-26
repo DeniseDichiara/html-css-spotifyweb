@@ -60,6 +60,9 @@ ul{
     padding: 1rem 0 ;
 }
 
+.white{
+    border-radius: 2rem;
+}
 /* ? Blue box */
 
 .main-box{
