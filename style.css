@@ -12,11 +12,8 @@ body{
     display: flex;
 }
 
-.main-box{
-    height: 80vh;
-    width: calc( 100% - 80px);
-    background-color: deepskyblue;
-}
+
+/*! pink box */
 
 .side-navbar{
     height: 80vh;
@@ -26,6 +23,10 @@ body{
 
 .padding-top-big{
     padding-top: 2em;
+}
+
+.padding-bottom-big{
+    padding-bottom: 2em;
 }
 
 .padding-top-small{
@@ -42,6 +43,21 @@ ul{
     color: white;
 }
 
+/* ? Blue box */
+
+.main-box{
+    display: flex;
+    height: 80vh;
+    width: calc( 100% - 80px);
+    background-color: deepskyblue;
+}
+
+.inner-box{
+    width: calc( 100% / 6);
+    height: 200px;
+    background-color: blue;
+}
+
 /*
 .logos{
     display: flex;
@@ -51,4 +67,11 @@ footer{
     width: 100%;
     height: 20%;
     background-color: orange;
+}
+
+/** spotify md */
+
+@media screen and (max-width:768px) {
+    flex-wrap: wrap;
+    
 }
