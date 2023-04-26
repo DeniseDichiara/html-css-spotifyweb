@@ -74,8 +74,8 @@ ul{
 }
 
 .inner-box{
-    width: calc( 100% / 6 - 5 );
-    height: 30%;
+    width: calc( 100% / 6 - .5rem );
+    height: 45%;
     background-color: blue;
     margin-right: .5rem;
 }
@@ -96,16 +96,27 @@ footer{
     }
 
     .inner-box{
-        width: calc( 100% / 4 - 5);
-        background-color: red;
-        border: 2rem solid black;
+        width: calc( 100% / 4 - .5rem);
+        background-color: blue;
         color: white;
         font-size: 3rem;
     }    
 }
 
+/*! SMALL */
+
 @media screen and (max-width:576px){
     .main-box{
-        background-color: yellow;
+        background-color: rgb(0, 255, 94);
+        flex-wrap: wrap;
     }
+
+    .inner-box{
+        width: calc( 100% / 2 - .5rem);
+        height: calc(100% / 3 - .3rem) ;
+        margin-bottom: .3rem;
+        background-color: rgb(255, 196, 0);
+        color: white;
+        font-size: 3rem;
+    }    
 }
