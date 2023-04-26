@@ -48,13 +48,25 @@ ul{
     color: white;
 }
 
+.box{
+    height: 80vh;
+    width: calc( 100% - 80px);
+    background-color: black;
+}
+
+.upper-button{
+    display: flex;
+    justify-content: end;
+    padding: 1rem 0 ;
+}
+
 /* ? Blue box */
 
 .main-box{
     display: flex;
     justify-content: space-between;
-    height: 80vh;
-    width: calc( 100% - 80px);
+    height: 80%;
+    width: 100%;
     background-color: deepskyblue;
 }
 
