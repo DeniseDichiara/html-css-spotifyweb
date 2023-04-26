@@ -87,7 +87,10 @@ ul{
     background-color: turquoise ;
     width: 100%;
     margin-bottom: 1rem;
+}
 
+.row-2{
+    display: flex;
 }
 
 footer{
@@ -116,6 +119,9 @@ footer{
 /*! SMALL */
 
 @media screen and (max-width:576px){
+    .box{
+
+    }
     .main-box{
         background-color: rgb(0, 255, 94);
         height: 88.5%;
@@ -132,6 +138,10 @@ footer{
     }
     
     .second-box{
+        display: none;
+    }
+
+    .row-2{
         display: none;
     }
 }
