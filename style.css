@@ -78,6 +78,19 @@ footer{
 /** spotify md */
 
 @media screen and (max-width:768px) {
-    flex-wrap: wrap;
-    
+
+    .main-box{
+        background-color: #9792e4;
+    }
+
+    .wrap-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:576px){
+    .main-box{
+        background-color: yellow;
+    }
 }
