@@ -38,6 +38,11 @@ body{
     padding-left: 1em;
 }
 
+.padding-right-small{
+    padding-right: 1em;
+}
+
+
 ul{
     list-style-type: none;
     color: white;
@@ -47,13 +52,14 @@ ul{
 
 .main-box{
     display: flex;
+    justify-content: space-between;
     height: 80vh;
     width: calc( 100% - 80px);
     background-color: deepskyblue;
 }
 
 .inner-box{
-    width: calc( 100% / 6);
+    width: calc( 100% / 6 - 10px);
     height: 200px;
     background-color: blue;
 }
