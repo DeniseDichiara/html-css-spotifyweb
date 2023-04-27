@@ -19,7 +19,7 @@ body{
 .side-navbar{
     height: 80vh;
     width: 10%;
-    background-color: magenta;
+    background-color: black;
 }
 
 .padding-top-big{
@@ -56,6 +56,7 @@ ul{
     height: 80vh;
     width: calc( 100% - 80px);
     background-color: black;
+    overflow: scroll;
 }
 
 .upper-button{
@@ -66,6 +67,10 @@ ul{
 
 .white{
     border-radius: 2rem;
+}
+
+.white-font{
+    color: white;
 }
 /* ? Blue box */
 
