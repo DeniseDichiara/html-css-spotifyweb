@@ -79,7 +79,7 @@ ul{
 
     height: 60%;
     width: 100%;
-    background-color: deepskyblue;
+    background-color:#141922;
 }
 
 .inner-box{
@@ -90,13 +90,19 @@ ul{
 }
 
 .second-box{
-    background-color: turquoise ;
+    background-color:#141922;
     width: 100%;
 }
 
 .row-2{
     display: flex;
-    background-color: aquamarine;
+    background-color:#141922;
+}
+h1{
+    color: white;
+}
+p{
+    color: #7a7d81;
 }
 
 footer{
