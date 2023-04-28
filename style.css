@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 body{
     margin: 0 auto;
 }
@@ -28,7 +24,11 @@ main{
 nav{
     height: 100%;
     width: 200px;
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000000;
+    overflow-y: scroll;
 }
 
 section{
@@ -205,6 +205,20 @@ hr{
 
 .footer-row{
     height: 100%;
-    background-color:magenta;
-    width: 200px;
+    width: 300px;
+    background-color: magenta;
+}
+
+.first-footer-square{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin-left: 2em;
+    background-color: ;
+}
+
+.song{
+    height: 100%;
+    background-color:aqua ;
 }
