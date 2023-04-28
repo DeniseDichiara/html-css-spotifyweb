@@ -252,6 +252,12 @@ hr{
     text-align: center;
 }
 
+.music-button{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
 .music-status{
     height: 4px;
     background-color: gray;
