@@ -162,6 +162,7 @@ hr{
     margin-bottom: 3rem;
 }
 
+
 .first-row-card{
     width: calc(100% / 6 - .5rem);
     height: 200px;
@@ -282,4 +283,38 @@ padding: 2em 0;
     justify-content: space-around;
     text-align: center;
 }
+
+/** MEDIA QUERIES */
+
+@media screen and (max-width: 992px){  /*! lg */
+    .first-row-card{
+        width: calc(100% / 6 - .5rem);
+        height: 200px;
+        margin-right: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 768px){ /*! md */
+    .wrap-box{
+        flex-wrap: wrap;
+    }
+    .first-row-card{
+        width: calc(100% / 4 - .5rem);
+        height: 200px;
+        margin-right: 1rem;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 576px){ /*! s */
+
+    
+}
+
+
+
+
 
