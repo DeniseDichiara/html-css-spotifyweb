@@ -49,11 +49,19 @@ h3{
     margin-top: .5rem;
 }
 
+h4{
+    color: white;
+    margin: .5rem;
+}
+
 p{
     color:  #6f6f6f;
 }
 
 footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     height: 100px;
     background-color: #282828;
 }
@@ -74,8 +82,13 @@ ul{
     margin-left: 50px;
 }
 
+hr{
+    color: #d2d2d2;
+    font-size: .5rem;
+}
+
 .title{
-    
+
 }
 
 .margin-right{
@@ -123,6 +136,20 @@ ul{
 
 .color-nav{
     color:  #6f6f6f;
+}
+
+.jhon-doe{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.profile-section{
+    display: flex;
+    flex-direction: column;
+    align-items: end ;
+    margin-top: 10rem;
+    margin-left: 2rem;
 }
 
 .main-container{
@@ -174,4 +201,10 @@ ul{
     height: 200px;
     background-color: white;
     margin-right: 1rem;
+}
+
+.footer-row{
+    height: 100%;
+    background-color:magenta;
+    width: 200px;
 }
