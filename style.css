@@ -206,7 +206,6 @@ hr{
 .footer-row{
     height: 100%;
     width: 300px;
-    background-color: magenta;
 }
 
 .first-footer-square{
@@ -214,11 +213,21 @@ hr{
     flex-direction: row;
     height: 100%;
     width: 100%;
-    margin-left: 2em;
-    background-color: ;
+    margin-left: 1em;
+    background-color: 
 }
 
 .song{
     height: 100%;
-    background-color:aqua ;
+    width: calc(100% / 3);
+}
+
+.band{
+    padding: 25% 0;
+    padding-left: .5rem ;
+}
+
+.fav-icons{
+    padding: 35% 0;
+    padding-left: .5rem ;
 }
