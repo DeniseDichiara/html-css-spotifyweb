@@ -87,10 +87,6 @@ hr{
     font-size: .5rem;
 }
 
-.title{
-
-}
-
 .margin-right{
     margin-right: .5rem;
 }
@@ -165,6 +161,7 @@ hr{
 
 .first-row-card{
     width: calc(100% / 6 - 1rem);
+    margin-right: .5rem;
 }
 
 .second-row-container{
@@ -201,7 +198,6 @@ hr{
     height: 100%;
     width: 100%;
     margin-left: 1em;
-    background-color: 
 }
 
 .song{
@@ -285,6 +281,10 @@ padding: 2em 0;
     }
     .first-row-card{
         width: calc(100% / 4 - .5rem);
+    }
+
+    .second-row-card{
+        width: calc(100% / 2 - .5rem);
     }
 }
 
