@@ -227,7 +227,22 @@ hr{
     padding-left: .5rem ;
 }
 
+.white{
+    color: white;
+}
+
 .fav-icons{
     padding: 35% 0;
     padding-left: .5rem ;
 }
+
+.third-footer-square{
+padding: 2em 0;
+}
+
+.device{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
