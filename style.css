@@ -291,6 +291,14 @@ hr {
     text-align: center;
 }
 
+
+/*? HOVER */
+
+img:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+
 /** MEDIA QUERIES */
 
 @media screen and (max-width: 992px) {
