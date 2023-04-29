@@ -299,6 +299,19 @@ img:hover{
     opacity: 0.5;
 }
 
+button:hover{
+    margin-right: 15px;
+    margin-top: 25px;
+    border-radius: 2rem;
+    color: white;
+    background-color: #080b12;
+    padding: .5rem 2rem;
+}
+
+li:hover{
+    color: white;
+}
+
 /** MEDIA QUERIES */
 
 @media screen and (max-width: 992px) {
