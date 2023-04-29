@@ -1,27 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0 auto;
+    font-family: 'Eater', cursive;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-header{
+header {
     text-align: right;
     background-color: #080b12;
     height: 60px;
 }
 
-main{
+main {
     height: calc(100vh - 140px);
     background-color: lightgray;
     display: flex;
-    
+
 }
 
-nav{
+nav {
     height: 100%;
     width: 200px;
     display: flex;
@@ -31,34 +39,34 @@ nav{
     overflow-y: scroll;
 }
 
-section{
+section {
     height: 100%;
     width: calc(100% - 200px);
     background-color: #141922;
     overflow-y: auto;
 }
 
-h1{
+h1 {
     color: white;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
 
-h3{
+h3 {
     color: white;
     margin-top: .5rem;
 }
 
-h4{
+h4 {
     color: white;
     margin: .5rem;
 }
 
-p{
-    color:  #6f6f6f;
+p {
+    color: #6f6f6f;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -66,133 +74,141 @@ footer{
     background-color: #282828;
 }
 
-button{
+button {
     margin-right: 10px;
     margin-top: 20px;
     border-radius: 2rem;
     color: white;
-    background-color:#080b12;
+    background-color: #080b12;
     padding: .5rem 2rem;
 }
 
-ul{
+ul {
     list-style-type: none;
     color: white;
     margin-top: 20px;
     margin-left: 50px;
 }
 
-hr{
+hr {
     color: #d2d2d2;
     font-size: .5rem;
 }
 
-.margin-right{
+.playlist {
+    font-size: 35px;
+}
+
+.margin-right {
     margin-right: .5rem;
 }
 
-.margin-right-big{
+.margin-right-big {
     margin-right: 1.5rem;
 }
 
-.margin-top{
+.margin-top {
     margin-top: .5rem;
 }
 
-.margin-top-big{
+.margin-bottom {
+    margin-bottom: .5rem;
+}
+
+.margin-top-big {
     margin-top: 2rem;
 }
 
-.margin-bottom-big{
+.margin-bottom-big {
     margin-bottom: 2rem;
 }
 
-.padding-right{
+.padding-right {
     margin-right: 2rem;
 }
 
-.padding-bottom-big{
+.padding-bottom-big {
     padding-bottom: 2rem;
 }
 
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: center;
 }
 
-.inner-navbar{
+.inner-navbar {
     display: flex;
     flex-direction: row;
 }
 
-.color-home{
+.color-home {
     color: #d2d2d2;
 }
 
-.color-nav{
-    color:  #6f6f6f;
+.color-nav {
+    color: #6f6f6f;
 }
 
-.jhon-doe{
+.jhon-doe {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.profile-section{
+.profile-section {
     display: flex;
     flex-direction: column;
-    align-items: end ;
+    align-items: end;
     margin-top: 10rem;
     margin-left: 2rem;
 }
 
-.main-container{
+.main-container {
     margin-left: 2rem;
 }
 
-.first-row-container{
+.first-row-container {
     display: flex;
     flex-direction: row;
     margin-bottom: 3rem;
 }
 
 
-.first-row-card{
+.first-row-card {
     width: calc(100% / 6 - 1rem);
     margin-right: .5rem;
 }
 
-.second-row-container{
+.second-row-container {
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
-.second-row-card{
-    width: 200px;
+.second-row-card {
+    width: calc(50% / 3 - 1rem);
     margin-right: 1rem;
 }
 
-.third-row-container{
+.third-row-container {
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
 }
 
-.third-row-card{
+.third-row-card {
     width: 200px;
     margin-right: 1rem;
 }
 
-.footer-row{
+.footer-row {
     height: 100%;
     width: 400px;
 }
 
-.first-footer-square{
+.first-footer-square {
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -200,26 +216,26 @@ hr{
     margin-left: 1em;
 }
 
-.song{
+.song {
     height: 100%;
     width: calc(100% / 3);
 }
 
-.band{
+.band {
     padding: 25px 0;
-    padding-left: .5rem ;
+    padding-left: .5rem;
 }
 
-.white{
+.white {
     color: white;
 }
 
-.fav-icons{
+.fav-icons {
     padding: 35px 0;
-    padding-left: .5rem ;
+    padding-left: .5rem;
 }
 
-.second-footer-square{
+.second-footer-square {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -227,7 +243,7 @@ hr{
     height: 100%;
 }
 
-.footer-column{
+.footer-column {
     width: calc(100% / 3);
     height: 100%;
     padding-top: 40px;
@@ -235,20 +251,20 @@ hr{
     text-align: center;
 }
 
-.music-button{
+.music-button {
     display: flex;
     justify-content: space-around;
     padding-bottom: 20px;
 }
 
-.music-status{
+.music-status {
     height: 4px;
     background-color: gray;
     border-radius: 5px;
     width: 80%;
 }
 
-.music-played{
+.music-played {
     height: 4px;
     background-color: lightgray;
     border-radius: 5px;
@@ -256,48 +272,60 @@ hr{
 
 }
 
-.third-footer-square{
-padding: 2em 0;
+.third-footer-square {
+    padding: 2em 0;
 }
 
-.device{
+.device {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
 
-/** MEDIA QUERIES */
-
-@media screen and (max-width: 992px){  /*! lg */
-    .first-row-card{
-        width: calc(100% / 6 - 1rem);
-    }
-    
+.Einaudi {
+    width: 100%;
+    border-radius: 50%;
 }
 
-@media screen and (max-width: 768px){ /*! md */
-    .wrap-box{
+.info-brano {
+    text-align: center;
+}
+
+/** MEDIA QUERIES */
+
+@media screen and (max-width: 992px) {
+
+    /*! lg */
+    .first-row-card {
+        width: calc(100% / 6 - 1rem);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /*! md */
+    .wrap-box {
         flex-wrap: wrap;
     }
-    .first-row-card{
+
+    .first-row-card {
         width: calc(100% / 4 - .5rem);
     }
 
-    .second-row-card{
+    .second-row-card {
         width: calc(100% / 2 - .5rem);
     }
 }
 
-@media screen and (max-width: 576px){ /*! s */
-    .wrap-box{
+@media screen and (max-width: 576px) {
+
+    /*! s */
+    .wrap-box {
         flex-wrap: wrap;
     }
-    .first-row-card{
+
+    .first-row-card {
         width: calc(100% / 2 - .5rem);
     }
 }
-
-
-
-
-
