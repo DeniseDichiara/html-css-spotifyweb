@@ -30,8 +30,6 @@ main {
 }
 
 nav {
-    height: 100%;
-    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -93,6 +91,10 @@ ul {
 hr {
     color: #d2d2d2;
     font-size: .5rem;
+}
+
+.hidden-menu-section{
+    display: none;
 }
 
 .playlist {
@@ -375,3 +377,49 @@ i-white:hover{
         width: calc(100% / 2 - .5rem);
     }
 }
+
+@media screen  and (max-width:480px){
+    nav{
+        height: 100%;
+        width: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #000000;
+        overflow-y: scroll;
+    }
+
+    .hidden-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hidden-menu-section{
+        display: inline;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+
+    .hidden-one{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hidden-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-section{
+        display: none;
+    }
+    .profile-section{
+        display: none;
+    }
+    .hidden-icons{
+        display: flex;
+        flex-direction: column;
+        display: inline;
+    }
+}
+
