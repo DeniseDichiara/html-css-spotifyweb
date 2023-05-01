@@ -291,6 +291,9 @@ hr {
     text-align: center;
 }
 
+.circle{
+    display: none;
+}
 
 /*? HOVER */
 
@@ -310,6 +313,28 @@ button:hover{
 
 li:hover{
     color: white;
+}
+
+i-white:hover{
+    display: inline;
+}
+
+.music-played:hover{
+    background-color: #adff2f;
+}
+
+.circle:hover{
+    display: inline;
+}
+
+@media (hover: hover) {
+    i:hover {
+        font-style: white;
+    }
+
+    .play-music{
+        display: inline;
+    }
 }
 
 /** MEDIA QUERIES */
