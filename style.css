@@ -379,7 +379,7 @@ i-white:hover{
 }
 
 @media screen  and (max-width:480px){
-    nav{
+    nav.hidden-flex{
         height: 100%;
         width: 70px;
         display: flex;
@@ -387,6 +387,12 @@ i-white:hover{
         justify-content: space-between;
         background-color: #000000;
         overflow-y: scroll;
+    }
+    section {
+        height: 100%;
+        width: calc(100% - 70px);
+        background-color: #141922;
+        overflow-y: auto;
     }
 
     .hidden-flex{
@@ -409,6 +415,7 @@ i-white:hover{
     .hidden-two{
         display: flex;
         flex-direction: column;
+        justify-content: end;
     }
     .menu-section{
         display: none;
